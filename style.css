@@ -16,3 +16,22 @@
     text-align: center;
 
 }
+.hobbies-work {
+    display: flex;
+}
+
+.hobby-column,
+.work-column {
+    width: 70%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.hobby-column {
+    border-right: 1px solid black;
+}
+
+.hobby-column h3,
+.work-column h3 {
+    text-align: center;
+}
