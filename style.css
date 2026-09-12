@@ -1,13 +1,13 @@
 .section {
     display: block;
-    width: 250px;
+    width: 400px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
 }
 .section-left {
     float: left;
-    width: 250px;
+    width: 300px;
     height: auto;
     margin-right: 20px;
 }
@@ -18,20 +18,36 @@
 }
 .hobbies-work {
     display: flex;
+    width: 90%;
+    margin: 0 auto;
+    clear: both;
 }
-
 .hobby-column,
 .work-column {
-    width: 70%;
+    width: 50%;
     padding: 0 20px;
+    margin-top: 40px;
     box-sizing: border-box;
+    text-align: center;
 }
 
 .hobby-column {
     border-right: 1px solid black;
 }
 
-.hobby-column h3,
 .work-column h3 {
     text-align: center;
 }
+
+.spacer {
+    height: 80px;
+
+}
+.bottempics{
+    display: block;
+    width: 150px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}    
